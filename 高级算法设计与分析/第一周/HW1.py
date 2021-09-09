@@ -18,6 +18,6 @@ def main():
     for lst in new:
         if len(lst) == 3:  # 指定m大小
             print(lst)
-
+ 
 
 main()
