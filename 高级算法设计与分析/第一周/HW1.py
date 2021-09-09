@@ -1,9 +1,5 @@
 #更正课后作业：给出课件中组合生成算法的时间递归式，并尝试求解此式，给出时间复杂性的大O表示。
 
-
-L = [i for i in range(10)]
-
-
 def sub_sets(a, b, idx, new):
     if idx == len(a):
         new.append(b)
